@@ -15,12 +15,6 @@ parser.add_argument("-v", "--verbose", action="store_true", help="Produce more o
 parser.add_argument("green_channel_image")
 parser.add_argument("red_channel_image")
 
-# Print verbose help instead of terse help in case of no arguments passed
-# (similar to GNU convention)
-if len(sys.argv) != 2:
-    parser.print_help()
-    exit(1)
-
 args = parser.parse_args()
 
 suffix = '_composite.tiff'
