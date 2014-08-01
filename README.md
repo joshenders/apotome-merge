@@ -20,7 +20,7 @@ The ouput filename will be green_channel_image's name with `_composite.tiff` app
 ```
 usage: apotome-merge.py [-h] [-p] [-v] green_channel_image red_channel_image
 
-Tool for merging RGB TIFF images taken with the ZEISS ApoTome
+Tool for merging RGB TIFF images taken with a ZEISS fluorescence microscope
 
 positional arguments:
   green_channel_image
