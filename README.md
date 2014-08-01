@@ -15,7 +15,7 @@ pip install wand
 ```
 
 ## Usage
-The ouput filename will be green_channel_image's name with `\_composite.tiff` appended.
+The ouput filename will be green_channel_image's name with `_composite.tiff` appended.
 
 ```
 usage: apotome-merge.py [-h] [-p] [-v] green_channel_image red_channel_image
