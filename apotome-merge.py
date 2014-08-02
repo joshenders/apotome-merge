@@ -35,12 +35,14 @@ else:
 # Open green_channel_image
 with Image(filename=args.green_channel_image) as green:
     if args.verbose:
+        print args.green_channel_image
         for key, value in green.metadata.items():
             print(key, value)
 
     # Open red_channel_image
     with Image(filename=args.red_channel_image) as red:
         if args.verbose:
+            print args.red_channel_image
             for key, value in green.metadata.items():
                 print(key, value)
 
